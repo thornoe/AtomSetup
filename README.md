@@ -5,14 +5,14 @@ However, it requires quite some setup (see below), fine-tuning, trouble-shooting
 1.   [Sublime Text](https://www.sublimetext.com/) is the oldest and most common of the text editors but has poor word-suggestions and updates are infrequent due to not being open source
 2.   [Visual Studio](https://visualstudio.microsoft.com/) by Microsoft. One of many pros is that it allows you to edit Jupyter Notebooks outside of your browser
 
-Compared to the two above, Atom can have slower performance but offers better functionality with GitHub when collaborating on a project.
+Compared to the two above, Atom can have slower performance but offers the best functionality with GitHub when collaborating on a project.
 
 ## General installation of Atom:
 -   Follow the installation guide <https://flight-manual.atom.io/getting-started/sections/installing-atom/>
 -   To install Atom packages either
     1. Press `ctrl+,` in Atom and search for packages under 'install'
     2. Or open the terminal (e.g. Command Prompt in Windows) and run a command like `apm install file-icons`. The first time run `apm` to check apm is installed correctly
--   The choice of UI Theme and Syntax Theme is highly subjective. I find [seti-ui](https://atom.io/themes/seti-ui) and [seti-syntax](https://atom.io/themes/seti-syntax) very pleasant.
+-   The choice of UI Theme and Syntax Theme is highly subjective. I find [seti-ui](https://atom.io/themes/seti-ui) and [seti-syntax](https://atom.io/themes/seti-syntax) very pleasant
 
 ## LaTeX
 -   [TeXLive](https://www.tug.org/texlive/acquire-netinstall.html) works with atom-latex, MiKTeX does not
@@ -47,7 +47,7 @@ Pre-installed Spell-check package
     - To find out what scope to add for a current file: put the cursor in the file, open the Command Palette `ctrl-shift-p`, and search for the `Editor: Log Cursor Scope` command.
 -   Add the following line to "Excluded Scopes":
     - `markup.underline.link.gfm, Support.function.tex, support.function.latex, meta.preamble.latex, support.type.function.latex, comment.line.percentage.tex, storage.type.function.latex, string.other.math.tex, string.other.math.block.environment.latex, variable.parameter.function.latex, constant.other.reference.latex`
--   Add `en-US`, `da-DK`, `es-ES` or others under 'Locales' (check the 'Use Locales' box).
+-   Add `en-US`, `da-DK`, `es-ES` or others under 'Locales' (check the 'Use Locales' box)
 -   Windows Language (equivalently for Linux):
     - For now you need to set the system language to `English (United States)` for spell-check to work.
     - When a certain bug fix is approved you'll only need to make sure that `English (United States)` is installed in Windows language settings.
@@ -64,7 +64,7 @@ Used for language support instead of Linter due to better functionality with Pyt
 -   `platformio-ide-terminal` (optional terminal package for atom)
 
 ## Linter
-Common package for language support but suboptimal for Python and R, thus, I recommend using IDE instead.
+Common package for language support but suboptimal for Python and R, thus, I recommend using IDE instead
 -   However, if you prefer Linter (e.g. if you only use Atom for LaTeX and Markdown) you can install the package `linter` and the relevant [language specific linter packages](https://atomlinter.github.io/), e.g.
     - `linter-markdown`
     - `linter-ui-default` & `linter-chktex` for LaTeX
