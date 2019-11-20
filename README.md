@@ -41,7 +41,7 @@ Compared to the two above, Atom can have slower performance but offers the best 
 -   OBS: The `atom-ide-ui` terminal replaces Linter (i.e. see the Ide not the Linter part below)
 
 ## Spell-check
-Pre-installed Spell-check package
+Pre-installed [spell-check](https://atom.io/packages/spell-check) package
 -   Add `text.tex.latex, text.tex.latex.beamer, text.md` to "Grammars"
     - To find out what scope to add for a current file: put the cursor in the file, open the Command Palette `ctrl-shift-p`, and search for the `Editor: Log Cursor Scope` command.
 -   Add the following line to "Excluded Scopes":
