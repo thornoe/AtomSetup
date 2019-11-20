@@ -10,7 +10,7 @@ Compared to the two above, Atom can have slower performance but offers the best 
 ## General installation of Atom:
 -   Follow the installation guide <https://flight-manual.atom.io/getting-started/sections/installing-atom/>
 -   To install Atom packages either
-    1. Press `ctrl+,` in Atom and search for packages under 'install'
+    1. Press `ctrl-,` in Atom and search for packages under 'install'
     2. Or open the terminal (e.g. Command Prompt in Windows) and run a command like `apm install file-icons`. The first time run `apm` to check apm is installed correctly
 -   The choice of UI Theme and Syntax Theme is highly subjective. I find [seti-ui](https://atom.io/themes/seti-ui) and [seti-syntax](https://atom.io/themes/seti-syntax) very pleasant
 
@@ -24,11 +24,11 @@ Compared to the two above, Atom can have slower performance but offers the best 
 
 ## Markdown
 -   Install the two packages `markdown-writer language-markdown`
--   `markdown-preview` is pre-installed. Press `ctrl+shift+m` to toogle on/off
+-   `markdown-preview` is pre-installed. Press `ctrl-shift-m` to toogle on/off
 -   If you're new to Markdown language, check this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Python
--   Python is installed by installing [Anaconda](https://www.anaconda.com/distribution/#download-section) (choose 'Add Anaconda to my PATH environment variable'), and running it through the [Hydrogen](https://atom.io/packages/hydrogen) package in Atom by marking a snippet of code and pressing `ctrl+enter`
+-   Python is installed by installing [Anaconda](https://www.anaconda.com/distribution/#download-section) (choose 'Add Anaconda to my PATH environment variable'), and running it through the [Hydrogen](https://atom.io/packages/hydrogen) package in Atom by marking a snippet of code and pressing `ctrl-enter`
     -   In the terminal run `apm install hydrogen hydrogen-launcher script`
 -   All you need is the [Script](https://atom.io/packages/script) package, but consider optional packages from the [list at pythonmania](https://www.pythonmania.net/en/2017/02/27/recommended-atom-packages) (ignore `linter-pydocstyle` & `flake8` but see IDE below instead)
 -   Install the [Python Language Server](https://github.com/palantir/python-language-server#python-language-server) (pyls) by running `python -m pip install python-language-server[all]` in the terminal (alternatively, try `python -m pip install 'python-language-server[all]'`
@@ -50,7 +50,7 @@ Pre-installed [spell-check](https://atom.io/packages/spell-check) package
     - For now you need to set the system language to `English (United States)` for spell-check to work.
     - When a certain bug fix is approved you'll only need to make sure that `English (United States)` is installed in Windows language settings.
     -   Then you will also be able to add `es-ES`, `da-DK` or others after `en-US` under 'Locales' (check the 'Use Locales' box)
--   Place the cursor at a highlighted word and press `ctrl+shift+:` to run spell-check
+-   Place the cursor at a highlighted word and press `ctrl-shift-:` to run spell-check
 
 ## IDE
 Used for language support instead of Linter due to better functionality with Python and R. Install those of the following Atom packages that you need:
