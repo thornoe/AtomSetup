@@ -54,7 +54,7 @@ Pre-installed Spell-check package
 
 ## IDE
 Used for language support instead of Linter due to better functionality with Python and R. Install those of the following Atom packages that you need:
--   [atom-ide-ui](https://atom.io/packages/atom-ide-ui) Mandatory (under 'Settings' > 'Enabled Features' I choose to disable 'Console', 'Debugger', 'atom-ide-refactor', and 'Terminal').
+-   [atom-ide-ui](https://atom.io/packages/atom-ide-ui) is the backbone for using any of the packages below (under 'Settings' > 'Enabled Features' I choose to disable 'Console', 'Debugger', 'atom-ide-refactor', and 'Terminal').
 -   [ide-python](https://atom.io/packages/ide-python) for Python language support.
     - I add the [error codes](http://pycodestyle.pycqa.org/en/latest/intro.html#error-codes) `E2, E3, E501, W2, W3, W5` under 'Settings' > 'PyCodeStyle' > 'Ignore'
     - Automatically changes tab-length to 4 spaces for all .py files (overwrites global Atom settings which you can still set to e.g. 2 for LaTeX and other languages.)
