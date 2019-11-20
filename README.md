@@ -31,9 +31,8 @@ Compared to the two above, Atom can have slower performance but offers the best 
 -   Python is installed by installing [Anaconda](https://www.anaconda.com/distribution/#download-section) (choose 'Add Anaconda to my PATH environment variable'), and running it through the [Hydrogen](https://atom.io/packages/hydrogen) package in Atom by marking a snippet of code and pressing `ctrl+enter`
     -   In the terminal run `apm install hydrogen hydrogen-launcher script`
 -   All you need is the [Script](https://atom.io/packages/script) package, but consider optional packages from the [list at pythonmania](https://www.pythonmania.net/en/2017/02/27/recommended-atom-packages) (ignore `linter-pydocstyle` & `flake8` but see IDE below instead)
--   Install the Python language server (pyls) by running `pip
-install --user python-language-server[all]` in the terminal
--   Update Python once in a while by running `conda update --all` and `pip_upgrade_outdated` (install the [hack](https://pypi.org/project/pip-upgrade-outdated/) first)
+-   Install the [Python Language Server](https://github.com/palantir/python-language-server#python-language-server) (pyls) by running `python -m pip install python-language-server[all]` in the terminal (alternatively, try `python -m pip install 'python-language-server[all]'`
+-   Update Python once in a while by running `conda update --all` and `pip_upgrade_outdated` (install the [hack](https://pypi.org/project/pip-upgrade-outdated/) first: `pip install pip_upgrade_outdated`)
 
 ## R
 -   Install [R](https://cran.r-project.org/), [IRkernel](https://irkernel.github.io/installation/#binary-panel), (and [Rstudio](https://www.rstudio.com/products/rstudio/download/))
@@ -58,7 +57,7 @@ Used for language support instead of Linter due to better functionality with Pyt
 -   `atom-ide-ui` (Under 'Settings' > 'Enabled Features' I choose to disable 'Console', 'Debugger', 'atom-ide-refactor', and 'Terminal')
 -   `ide-python`
     - I add the [error codes](http://pycodestyle.pycqa.org/en/latest/intro.html#error-codes) `E2, E3, E501, W2, W3, W5` under 'Settings' > 'PyCodeStyle' > 'Ignore'
-    - Automatically changes tab-length to 4 spaces for all .py files (overwrites global Atom settings)
+    - Automatically changes tab-length to 4 spaces for all .py files (overwrites global Atom settings which you can still set to e.g. 2 for LaTeX and other languages.)
 -   `ide-r`
 -   `atom-ide-debugger-python`(optional debugger)
 -   `platformio-ide-terminal` (optional terminal package for atom)
