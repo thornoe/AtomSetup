@@ -54,13 +54,14 @@ Pre-installed Spell-check package
 
 ## IDE
 Used for language support instead of Linter due to better functionality with Python and R. Install those of the following Atom packages that you need:
--   [atom-ide-ui](https://atom.io/packages/atom-ide-ui) is the backbone for using any of the packages below (under 'Settings' > 'Enabled Features' I choose to disable 'Console', 'Debugger', 'atom-ide-refactor', and 'Terminal').
+-   [atom-ide-ui](https://atom.io/packages/atom-ide-ui) is the backbone for using any of the packages below.
+    - I choose to disable 'Console', 'Debugger', 'atom-ide-refactor', and 'Terminal' under 'Settings' > 'Enabled Features'.
 -   [ide-python](https://atom.io/packages/ide-python) for Python language support.
-    - I add the [error codes](http://pycodestyle.pycqa.org/en/latest/intro.html#error-codes) `E2, E3, E501, W2, W3, W5` under 'Settings' > 'PyCodeStyle' > 'Ignore'
+    - I add the [error codes](http://pycodestyle.pycqa.org/en/latest/intro.html#error-codes) `E2, E3, E501, W2, W3, W5` under 'Settings' > 'PyCodeStyle' > 'Ignore'.
     - Automatically changes tab-length to 4 spaces for all .py files (overwrites global Atom settings which you can still set to e.g. 2 for LaTeX and other languages.)
 -   [ide-r](https://atom.io/packages/ide-r) for R language support.
--   [atom-ide-debugger-python](https://atom.io/packages/atom-ide-debugger-python) (optional debugger for Python code)
--   [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal) (optional package that adds a terminal in the bottom of Atom editor)
+-   [atom-ide-debugger-python](https://atom.io/packages/atom-ide-debugger-python) is an optional debugger for Python code.
+-   [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal) adds a terminal in the bottom of your Atom editor.
 ```
 pip install atom-ide-ui ide-python ide-r atom-ide-debugger-python platformio-ide-terminal
 ```
