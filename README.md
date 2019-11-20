@@ -28,8 +28,8 @@ Compared to the two above, Atom can have slower performance but offers the best 
 -   If you're new to Markdown language, check this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Python
--   Python is installed by installing [Anaconda](https://www.anaconda.com/distribution/#download-section) (choose 'Add Anaconda to my PATH environment variable'), and running it through the Hydrogen package in Atom by marking a snippet of code and pressing `ctrl+enter`
-    -   In the terminal run `apm install hydrogen hydrogen-launcher script`
+-   Python is installed by installing [Anaconda](https://www.anaconda.com/distribution/#download-section) (choose 'Add Anaconda to my PATH environment variable'), and running it through the Hydrogen and Hydrogen Launcher packages in Atom by marking a snippet of code and pressing `ctrl+enter`
+    -   In the terminal run `apm install [hydrogen](https://github.com/nteract/hydrogen#hydrogen-) hydrogen-launcher script`
 -   All you need is the Script package, but consider optional packages from the [list at pythonmania](https://www.pythonmania.net/en/2017/02/27/recommended-atom-packages) (ignore `linter-pydocstyle` & `flake8` but see IDE below instead)
 -   Install the Python language server (pyls) by running `pip
 install --user python-language-server` in the terminal
