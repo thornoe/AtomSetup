@@ -20,7 +20,7 @@ Compared to the two above, Atom can have slower performance but offers the best 
     ```
     apm install atom-latex language-latex pdf-view
     ```
--   Check the [optional packages listed by Benjamin Gray](https://gist.github.com/Aerijo/5b9522530715e5be6e89fc012e9a72a8) (ignore the Linter-packages and see 'Ide' below instead)
+-   Check the [optional packages listed by Benjamin Gray](https://gist.github.com/Aerijo/5b9522530715e5be6e89fc012e9a72a8) or others (ignore the Linter-packages and see 'Ide' below instead)
 
 ## Markdown
 -   Install the two packages `apm install markdown-writer language-markdown`
@@ -37,7 +37,7 @@ Compared to the two above, Atom can have slower performance but offers the best 
 ## R
 -   Install [R](https://cran.r-project.org/), [IRkernel](https://irkernel.github.io/installation/#binary-panel), (and [Rstudio](https://www.rstudio.com/products/rstudio/download/))
 -   You can run R in atom through Hydrogen just as descriped for Python above.
--   Setup according to the [guide by Jeff Stafford](https://jstaf.github.io/2018/03/25/atom-ide.html)
+-   Setup according to the [guide by Jeff Stafford](https://jstaf.github.io/2018/03/25/atom-ide.html) or similar
 -   OBS: The `atom-ide-ui` terminal replaces Linter (i.e. see the Ide not the Linter part below)
 
 ## Spell-check
