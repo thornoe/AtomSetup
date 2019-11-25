@@ -3,7 +3,7 @@
 
 However, it requires quite some setup (see below), fine-tuning, trouble-shooting and practice before you are able to enjoy its full functionality. Thus, before comitting make sure that Atom is the right choice for your needs by reading a few comparisons with other alternatives, e.g.
 1.   [Sublime Text](https://www.sublimetext.com/) is the oldest and most common of the text editors but has poor word-suggestions and updates are infrequent due to not being open source
-2.   [Visual Studio](https://visualstudio.microsoft.com/) by Microsoft. One of many pros is that it allows you to edit Jupyter Notebooks outside of your browser
+2.   [Visual Studio Code](https://code.visualstudio.com) by Microsoft. One of many pros is that it allows you to edit Jupyter Notebooks outside of your browser
 
 Compared to the two above, Atom can have slower performance but offers great functionality with GitHub when collaborating on a project.
 
