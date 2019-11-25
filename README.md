@@ -23,7 +23,7 @@ Compared to the two above, Atom can have slower performance but offers the best 
 -   Check the [optional packages listed by Benjamin Gray](https://gist.github.com/Aerijo/5b9522530715e5be6e89fc012e9a72a8) (ignore the Linter-packages and see 'Ide' below instead)
 
 ## Markdown
--   Install the two packages `markdown-writer language-markdown`
+-   Install the two packages `apm install markdown-writer language-markdown`
 -   `markdown-preview` is pre-installed. Press `ctrl-shift-m` to toogle on/off
 -   If you're new to Markdown language, check this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
