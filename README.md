@@ -5,7 +5,7 @@ However, it requires quite some setup (see below), fine-tuning, trouble-shooting
 1.   [Sublime Text](https://www.sublimetext.com/) is the oldest and most common of the text editors but has poor word-suggestions and updates are infrequent due to not being open source
 2.   [Visual Studio](https://visualstudio.microsoft.com/) by Microsoft. One of many pros is that it allows you to edit Jupyter Notebooks outside of your browser
 
-Compared to the two above, Atom can have slower performance but offers the best functionality with GitHub when collaborating on a project.
+Compared to the two above, Atom can have slower performance but offers great functionality with GitHub when collaborating on a project.
 
 ## General installation of Atom:
 -   Follow the installation guide <https://flight-manual.atom.io/getting-started/sections/installing-atom/>
@@ -31,7 +31,7 @@ Compared to the two above, Atom can have slower performance but offers the best 
 -   Python is installed by installing [Anaconda](https://www.anaconda.com/distribution/#download-section) (choose 'Add Anaconda to my PATH environment variable'), and running it through the [Hydrogen](https://atom.io/packages/hydrogen) package in Atom by marking a snippet of code and pressing `ctrl-enter`
     -   In the terminal run `apm install hydrogen hydrogen-launcher script`
 -   All you need is the [Script](https://atom.io/packages/script) package, but consider optional packages from the [list at pythonmania](https://www.pythonmania.net/en/2017/02/27/recommended-atom-packages) (ignore `linter-pydocstyle` & `flake8` but see IDE below instead)
--   Install the [Python Language Server](https://github.com/palantir/python-language-server#python-language-server) (pyls) by running `python -m pip install python-language-server[all]` in the terminal (alternatively, try `python -m pip install 'python-language-server[all]'`
+-   Install the [Python Language Server](https://github.com/palantir/python-language-server#python-language-server) (pyls) by running `python -m pip install python-language-server[all]` in the terminal (alternatively, try `python -m pip install 'python-language-server[all]'`. A prerequisite is C++ 14.0 or newer (as a [standalone compiler](https://wiki.python.org/moin/WindowsCompilers) or included in [Visual Studio](https://visualstudio.microsoft.com/vs/)).
 -   Update Python once in a while by running `conda update --all` and `pip_upgrade_outdated` (install the [hack](https://pypi.org/project/pip-upgrade-outdated/) first: `pip install pip_upgrade_outdated`)
 
 ## R
