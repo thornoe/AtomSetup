@@ -32,7 +32,7 @@ Compared to the two above, Atom can have slower performance but offers great fun
     -   In the terminal run `apm install hydrogen hydrogen-launcher script`
 -   All you need is the [Script](https://atom.io/packages/script) package, but consider optional packages from the [list at pythonmania](https://www.pythonmania.net/en/2017/02/27/recommended-atom-packages) (ignore `linter-pydocstyle` & `flake8` but see IDE below instead)
 -   Install the [Python Language Server](https://github.com/palantir/python-language-server#python-language-server) (pyls) by running `python -m pip install python-language-server[all]` in the terminal (alternatively, try `python -m pip install 'python-language-server[all]'`. A prerequisite is C++ 14.0 or newer (as the [MSVC standalone compiler](https://wiki.python.org/moin/WindowsCompilers) or included in [Visual Studio](https://visualstudio.microsoft.com/vs/)).
--   Update Python once in a while by running `conda update --all` and `pip_upgrade_outdated` (install the [hack](https://pypi.org/project/pip-upgrade-outdated/) first: `pip install pip_upgrade_outdated`)
+-   Update Python once in a while by running `conda update --all` and `pip_upgrade_outdated` (install [this tool](https://pypi.org/project/pip-upgrade-outdated/) first: `pip install pip_upgrade_outdated`)
 
 ## R
 -   Install [R](https://cran.r-project.org/), [IRkernel](https://irkernel.github.io/installation/#binary-panel), (and [Rstudio](https://www.rstudio.com/products/rstudio/download/))
