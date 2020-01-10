@@ -44,8 +44,8 @@ Compared to the two above, Atom can have slower performance but offers great fun
 Pre-installed [spell-check](https://atom.io/packages/spell-check) package
 -   Add `text.tex.latex, text.tex.latex.beamer, text.md` to "Grammars"
     - To find out what scope to add for a current file: put the cursor in the file, open the Command Palette `ctrl-shift-p`, and search for the `Editor: Log Cursor Scope` command.
--   Add the following line to "Excluded Scopes":
-    - `markup.underline.link.gfm, Support.function.tex, support.function.latex, meta.preamble.latex, support.type.function.latex, comment.line.percentage.tex, storage.type.function.latex, string.other.math.tex, string.other.math.block.environment.latex, variable.parameter.function.latex, constant.other.reference.latex`
+-   Add the following line to "Excluded Scopes" (find scope by opening the command palette `ctrl-shift-p` and choose `Editor: Log Cursor Scope`:
+    - `markup.underline.link.gfm, support.function.latex, meta.preamble.latex, support.type.function.latex, comment.line.percentage.tex, storage.type.function.latex, string.other.math.tex, string.other.math.block.environment.latex, variable.parameter.function.latex, constant.other.reference.latex, meta.reference.latex`
 -   Windows Language (equivalently for Linux):
     - For now you need to set the system language to `English (United States)` for spell-check to work.
     - When a certain bug fix is approved you'll only need to make sure that `English (United States)` is installed in Windows language settings.
