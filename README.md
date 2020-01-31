@@ -8,7 +8,7 @@ However, it requires quite some setup (see below), fine-tuning, trouble-shooting
 Compared to the two above, Atom can have slower performance but offers great functionality with GitHub when collaborating on a project.
 
 ## General installation of Atom:
--   The [installer](https://atom.io/download/windows_x64) sets up Atom automatically while a complete uninstallation [requres more effort](https://discuss.atom.io/t/how-to-completely-uninstall-atom-from-windows/17338/6).
+-   The [installer](https://atom.io/download/windows_x64) sets up Atom automatically while a complete uninstallation [requires more effort](https://discuss.atom.io/t/how-to-completely-uninstall-atom-from-windows/17338/6).
 -   To install Atom packages either
     1. Press `ctrl-,` in Atom and search for packages under 'install'
     2. Or open the terminal (e.g. Command Prompt in Windows) and run a command like `apm install file-icons`. The first time run `apm` to check apm is installed correctly
