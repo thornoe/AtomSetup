@@ -30,6 +30,7 @@ Compared to the two above, Atom can have slower performance but offers great fun
 ## Python
 -   Python is installed by installing [Anaconda](https://www.anaconda.com/distribution/#download-section) (choose 'Add Anaconda to my PATH environment variable'), and running it through the [Hydrogen](https://atom.io/packages/hydrogen) package in Atom by marking a snippet of code and pressing `ctrl-enter`
     -   In the terminal run `apm install hydrogen hydrogen-launcher script`
+    -   If you need to uninstall Anaconda, read [this](https://docs.anaconda.com/anaconda/install/uninstall/) first.
 -   All you need is the [Script](https://atom.io/packages/script) package, but consider optional packages from the [list at pythonmania](https://www.pythonmania.net/en/2017/02/27/recommended-atom-packages) (ignore `linter-pydocstyle` & `flake8` but see IDE below instead)
 -   Install the [Python Language Server](https://github.com/palantir/python-language-server#python-language-server) (pyls) by running `python -m pip install python-language-server[all]` in the terminal. If not working, try `python -m pip install 'python-language-server[all]'`. A prerequisite is C++ 14.0 or newer (as the [MSVC standalone compiler](https://wiki.python.org/moin/WindowsCompilers) or included in [Visual Studio](https://visualstudio.microsoft.com/vs/)).
 -   Update Python once in a while by running `conda update --all` and `pip_upgrade_outdated` (install [this tool](https://pypi.org/project/pip-upgrade-outdated/) first: `pip install pip_upgrade_outdated`)
