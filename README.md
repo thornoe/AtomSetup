@@ -1,11 +1,12 @@
 # Atom setup notes
 [Atom](https://atom.io/) (developed by GitHub) is a great solution for handling program languages like LaTeX, Markdown, Python, and R in a single text editor with a smooth user interface.
 
-However, it requires quite some setup (see below), fine-tuning, trouble-shooting and practice before you are able to enjoy its full functionality. Thus, before comitting make sure that Atom is the right choice for your needs by reading a few comparisons with other alternatives, e.g.
-1.   [Sublime Text](https://www.sublimetext.com/) is the oldest and most common of the text editors but has poor word-suggestions and updates are infrequent due to not being open source
-2.   [Visual Studio Code](https://code.visualstudio.com) by Microsoft. One of many pros is that it allows you to edit Jupyter Notebooks outside of your browser. Extensions like [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) are found in the [Marketplace](https://marketplace.visualstudio.com/).
+However, it requires quite some setup (as reflected by the length of this note), fine-tuning, trouble-shooting and practice before you are able to enjoy its full functionality. If you view it more as a drawback than an advantage that Atom is a [hackable editor](https://flight-manual.atom.io/hacking-atom/), read a few comparisons with other alternatives to find the right choice for your needs before comitting time to setting up Atom. E.g.:
+1.   [Visual Studio Code](https://code.visualstudio.com) by Microsoft is the trending choice and what I would recommend for most users. Its more plug-and-go as its main edge over other text editors is the range of core features it has out-of-the-box while still offering extensions like [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) in its [Marketplace](https://marketplace.visualstudio.com/). As a side note: Though you can edit Jupyter Notebooks within VS Code itself, it is still to buggy as compared to using your browser.
 
-Compared to the two above, Atom can have slower performance but offers great functionality with GitHub when collaborating on a project.
+2.   [Sublime Text](https://www.sublimetext.com/) is the older and therefore very common text editor. However, it is slower than the other two, has poor word-suggestions and updates are infrequent due to not being open source.
+
+Compared to VS Code, Atom is highly plugin-based which requires more setup while certain plugins leads to weaker performance and increased startup time. The biggest advantages of Atom is the complete GitHub integration which is great for collaborating on projects.
 
 ## General installation of Atom:
 -   The [installer](https://atom.io/download/windows_x64) sets up Atom automatically while a complete uninstallation [requires more effort](https://discuss.atom.io/t/how-to-completely-uninstall-atom-from-windows/17338/6).
